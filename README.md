@@ -1,43 +1,45 @@
-OOP Mini Projects
+# 🚀 OOP Mini Projects  
 
-Welcome to my OOP Mini Projects repository! 🚀
+Welcome to my **OOP Mini Projects** repository! This is a collection of **Object-Oriented Programming (OOP)** projects built as part of my **project-based learning journey**. Each project is designed to reinforce key **OOP principles** such as **encapsulation, inheritance, polymorphism, and abstraction** in a practical way.  
 
-This repository is a collection of Object-Oriented Programming (OOP) mini projects that I am building as part of my project-based learning journey. Each project focuses on implementing OOP concepts such as encapsulation, inheritance, polymorphism, and abstraction in a practical way.
+---
 
-📌 About This Repository
+## 📌 About This Repository  
 
-This repo contains small but meaningful OOP-based projects.
+🔹 Contains small yet meaningful **OOP-based projects**  
+🔹 Follows **best practices** in OOP design and implementation  
+🔹 Built using **C++**  
+🔹 Focused on **learning by building** and improving OOP skills through hands-on experience  
 
-Each project follows best practices in OOP design and implementation.
+---
 
-The projects are built using C++.
+## 🛠 Projects Included  
 
-The goal is to learn by building and improve OOP skills through hands-on experience.
+- **Banking System** 🏦 - Simulates real-world banking operations with deposits, withdrawals, interest calculation, and transaction tracking.  
+- *(More projects will be added as I progress!)*  
 
+---
 
-🛠 Projects Included
+## 🏗 Technologies Used  
 
-(More projects will be added as I progress!)
+- **Programming Language:** C++  
 
-🏗 Technologies Used
+---
 
-Programming Language: C++
+## 📌 Why Project-Based Learning?  
 
+✅ Reinforces **OOP concepts** with real-world examples  
+✅ Enhances **problem-solving** and **coding skills**  
+✅ Encourages **learning by doing** instead of just theory  
+✅ Prepares for **real-world software development**  
 
-📌 Why Project-Based Learning?
+---
 
-Helps in reinforcing OOP concepts with real-world examples.
+## 🤝 Contributions  
 
-Improves problem-solving and coding skills.
+This is a **personal learning repository**, but I’d love to hear your feedback!  
+Feel free to **open an issue** or **submit a pull request** if you have suggestions or improvements.  
 
-Encourages learning by doing instead of just theory.
+---
 
-Prepares for real-world software development.
-
-
-🤝 Contributions
-
-This is a personal learning repository, but if you have suggestions, feel free to open an issue or submit a pull request!
-
-
-Let's build some awesome OOP projects! 🚀🔥
+Let's build some awesome OOP projects together! 🚀🔥  
