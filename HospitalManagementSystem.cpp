@@ -2,7 +2,7 @@
 #include <string>
 #include<cstdlib>
 using namespace std;
-class Date 
+class Date
 {
 public:
     int day;
@@ -56,7 +56,7 @@ void Hospital::deletePatient(string Name)
     }
     cout << "Patient not found!" << endl;
 }
-void Hospital::insertPatient(string Name, Date DoA, string Depart, Date DoD) 
+void Hospital::insertPatient(string Name, Date DoA, string Depart, Date DoD)
 {
     if (count < 10)
     {
@@ -70,14 +70,14 @@ void Hospital::insertPatient(string Name, Date DoA, string Depart, Date DoD)
     }
     cout << "Total number of registered patients: " << count << endl;
 }
-void Hospital::displayPatient() 
+void Hospital::displayPatient()
 {
-    if (count == 0) 
+    if (count == 0)
     {
         cout << "No patients registered." << endl;
         return;
     }
-    for (int i = 0; i < count; i++) 
+    for (int i = 0; i < count; i++)
     {
         cout << "Name: " << patients[i].name
             << ", Admission Date: " << patients[i].DoA.day << "/" << patients[i].DoA.month << "/" << patients[i].DoA.year
@@ -90,13 +90,15 @@ int main() {
     string Name, Depart;
     int d, m, y, cho;
 
-    do 
+    system("color 1F");
+
+    do
     {
         system("cls");
 
-        cout << "        Menu      " << endl;
-        cout << "-------------------------" << endl;
-        cout << "1. Delete a Patient:" << endl;
+        cout << "                          Menu                                " << endl;
+        cout << "--------------------------------------------------------------" << endl;
+        cout << "1. Remove a patient:" << endl;
         cout << "2. Display the patients:" << endl;
         cout << "3. Insert a new patient and total number of patients:" << endl;
         cout << "4. Exit" << endl;
@@ -119,13 +121,23 @@ int main() {
         {
             cout << "Enter the patient's name: ";
             cin >> Name;
-            cout << "Enter the date of admission (day month year): ";
-            cin >> d >> m >> y;
+            cout << "Enter the date of admission (day month year): " << endl;
+            cout << "Day: ";
+            cin >> d;
+            cout << "Month: ";
+            cin >> m;
+            cout << "Year: ";
+            cin >> y;
             Date DoA(d, m, y);
             cout << "Enter the department: ";
             cin >> Depart;
-            cout << "Enter the date of discharge (day month year): ";
-            cin >> d >> m >> y;
+            cout << "Enter the date of discharge (day month year): " << endl;
+            cout << "Day: ";
+            cin >> d;
+            cout << "Month: ";
+            cin >> m;
+            cout << "Year: ";
+            cin >> y;
             Date DoD(d, m, y);
 
             hospital.insertPatient(Name, DoA, Depart, DoD);
