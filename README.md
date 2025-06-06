@@ -15,6 +15,7 @@ Welcome to my **OOP Mini Projects** repository! This is a collection of **Object
 
 ## 🛠 Projects Included
 
+* **Hare & Tortoise Game Simulation** 🐢🐇 – A console-based simulation of the classic race with randomized movement.
 * **Banking System** 🏦 – Simulates real-world banking operations with deposits, withdrawals, interest calculation, and transaction tracking.
 * **Hospital Management System** 🏥 – Manages patient records, including admission/discharge dates, department info, and allows insert/delete/display operations.
 * *(More projects will be added as I progress!)*
